@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Portfolio</title>
+    <link rel="stylesheet" href="amit csss portfolio.css">
+    
+</head>
+<body>
+
+    <div class="bg-animation"></div>
+    
+    <!-- Floating decorative elements -->
+    <div class="floating shape1"></div>
+    <div class="floating shape2"></div>
+    <div class="floating shape3"></div>
+
+    <header>
+        <h1>Amit Jadhav</h1>
+        <p>Creative Developer & E&TC Engineer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="profile-img">
+                <img src="https://media-hosting.imagekit.io/b45020f51ceb41fe/me%201.jpg?Expires=1838834203&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=iSjyjLmZUq9O9X0oVSMoRDziLsfjGcXpqwjE4UGbAsMcZEawuu~mhkYPdNt~cY2xU48c2xbE8AyJ17JcyoAK6KgCer8xgamjqecr-6Eoj6PJROw8i0uRYfS-6G21lGR4Eve9jmESqTNCtKTLWO9g4c65OYRi9hxJHa9djcGHA4gOuMEPzvTEHcBmJC9xjCB7dw~0LJBPfEE8Qkg9FN6DVQERAQ9P1dYZCGrqXLZN35kDJ8UbOqlInWD9Jc3Xqmt7tFsy4JUeYF41qBArClsaUKzTAHpN5R64dYe8~1--6BT6emk1dt5t66csiZFnfrWajnx-vOr9Zd~0ZO-sQuvcbg__" alt="Amit Jadhav">
+            </div>
+            <div class="about-content">
+                <p>👋 Hey there! I'm Amit Jadhav, a First year E&TC student studing in MIT Academy Of Engineering!</p>
+                <p>🎨 My approach combines technical expertise with creative design thinking and hardware. I believe the best digital products are those that solve real problems while delighting users by using IOT and Robotics!</p>
+                <p>🚀 When I'm not studing, you'll find me hiking mountains, experimenting with new recipes in the kitchen, spending time with friends, or improve my hobbies of paying instrumentes!</p>
+                <p>💡 Fun fact: I once built a embedded system of anti theft and RFID Based Ticketing system !</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img" style="background: #ff6b6b;">
+                        🛜
+                    </div>
+                    
+                    <div class="project-info">
+                        <h3>Remote Control System</h3>
+                        <p>A sustainable project of by using the IR Reciver, 555 Timer IC and did the control of lights by using T.V Remote.</p>
+                        <div class="project-tags">
+                            <span class="tag">Basic Electronics</span>
+                            <span class="tag">Basic of sensors</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img" style="background: #4ecdc4;">
+                        💭
+                    </div>
+                    <div class="project-info">
+                        <h3>Home Automation</h3>
+                        <p>Interactive music visualization tool that creates art from your favorite songs.</p>
+                        <div class="project-tags">
+                            <span class="tag">ESP 8266(Node MCU)</span>
+                            <span class="tag">Ardiuno</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img" style="background: #45aaf2;">
+                        📚
+                    </div>
+                    <div class="project-info">
+                        <h3>RFID Based Ticketing System</h3>
+                        <p> A project Based on rfid to reduce the work load on the bus conductors.</p>
+                        <div class="project-tags">
+                            <span class="tag">RFID Tag</span>
+                            <span class="tag">Ardiuno</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-container">
+                <div class="skill">💻 HTML & CSS</div>
+                <div class="skill">🐍 Python</div>
+                <div class="skill">🛢️ C & C++</div>
+                <div class="skill">📱 Responsive Design</div>
+                <div class="skill">🎨 UI/UX Design</div>
+                <div class="skill">📊 Data Visualization</div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="hidden" name="access_key" value="8b3738f7-9456-4332-a3e4-c5d477ad9b19">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Your Mail" required>
+                    <input type="hidden" name="access_key" value="8b3738f7-9456-4332-a3e4-c5d477ad9b19">
+                </div>
+                <div class="form-group full-width">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" placeholder="Enter your subject">
+                    <input type="hidden" name="access_key" value="8b3738f7-9456-4332-a3e4-c5d477ad9b19">
+                </div>
+                <div class="form-group full-width">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" placeholder="Enter Your Message" required></textarea>
+                    <input type="hidden" name="access_key" value="8b3738f7-9456-4332-a3e4-c5d477ad9b19">
+                </div>
+                <button type="submit">Send Message ✉️</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <div class="social-links">
+            <a href="https://GitHub.com/Amitsh2406"  target="_blank"  >
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+
+            <a href="https://Instagram.com/amit_j_24"  target="_blank" >
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+
+            <a href="https://linkedin.com/Amit Jadhav"  target="_blank"  >
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+
+            <a href="https://wa.me/8356942242s"  target="_blank" >
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+        </div>
+        <p>© 2025| Made with A.J ❤️ and ☕</p>
+        <p class="secret" style="opacity: 0.2; font-size: 0.8rem; margin-top: 10px;">hushh... hover over my profile picture!</p>
+    </footer>
+</body>
+</html>
